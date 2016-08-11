@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADE681A1D5ADCB2004022FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68191D5ADCB2004022FB /* main.m */; };
+		FADE681D1D5ADCB2004022FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE681C1D5ADCB2004022FB /* AppDelegate.m */; };
+		FADE68201D5ADCB2004022FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE681F1D5ADCB2004022FB /* ViewController.m */; };
+		FADE68231D5ADCB2004022FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE68211D5ADCB2004022FB /* Main.storyboard */; };
+		FADE68251D5ADCB2004022FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADE68241D5ADCB2004022FB /* Assets.xcassets */; };
+		FADE68281D5ADCB2004022FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE68261D5ADCB2004022FB /* LaunchScreen.storyboard */; };
+		FADE68331D5ADCB3004022FB /* TaobaoAddShoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68321D5ADCB3004022FB /* TaobaoAddShoppingCartTests.m */; };
+		FADE683E1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE683D1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.m */; };
+		FADE684E1D5AF8FD004022FB /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE684D1D5AF8FD004022FB /* ChooseView.m */; };
+		FADE68501D5AF90A004022FB /* ChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE684F1D5AF90A004022FB /* ChooseView.xib */; };
+		FADE68531D5B0406004022FB /* TypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68521D5B0406004022FB /* TypeView.m */; };
+		FADE68561D5B0A6A004022FB /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68551D5B0A6A004022FB /* UIView+Size.m */; };
+		FADE685F1D5C658C004022FB /* DDSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE685E1D5C658C004022FB /* DDSegmentView.m */; };
+		FADE68631D5C66C8004022FB /* UIColor+RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68621D5C66C8004022FB /* UIColor+RGBColor.m */; };
+		FADE686B1D5C7123004022FB /* MainGoodsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE686A1D5C7123004022FB /* MainGoodsView.xib */; };
+		FADE686E1D5C715F004022FB /* MainGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE686D1D5C715F004022FB /* MainGoodsView.m */; };
+		FADE68711D5C77D5004022FB /* GoodsDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68701D5C77D5004022FB /* GoodsDetailView.m */; };
+		FADE68731D5C77E6004022FB /* GoodsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE68721D5C77E6004022FB /* GoodsDetailView.xib */; };
+		FADE68761D5C7A8F004022FB /* GoodsCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68751D5C7A8F004022FB /* GoodsCommentView.m */; };
+		FADE68781D5C7A9D004022FB /* GoodsCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE68771D5C7A9D004022FB /* GoodsCommentView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADE682F1D5ADCB2004022FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE680D1D5ADCB2004022FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE68141D5ADCB2004022FB;
+			remoteInfo = TaobaoAddShoppingCart;
+		};
+		FADE683A1D5ADCB3004022FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE680D1D5ADCB2004022FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE68141D5ADCB2004022FB;
+			remoteInfo = TaobaoAddShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADE68151D5ADCB2004022FB /* TaobaoAddShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaobaoAddShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE68191D5ADCB2004022FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADE681B1D5ADCB2004022FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADE681C1D5ADCB2004022FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADE681E1D5ADCB2004022FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADE681F1D5ADCB2004022FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADE68221D5ADCB2004022FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADE68241D5ADCB2004022FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADE68271D5ADCB2004022FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADE68291D5ADCB2004022FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE682E1D5ADCB2004022FB /* TaobaoAddShoppingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaobaoAddShoppingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE68321D5ADCB3004022FB /* TaobaoAddShoppingCartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaobaoAddShoppingCartTests.m; sourceTree = "<group>"; };
+		FADE68341D5ADCB3004022FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE68391D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaobaoAddShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE683D1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaobaoAddShoppingCartUITests.m; sourceTree = "<group>"; };
+		FADE683F1D5ADCB3004022FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE684C1D5AF8FD004022FB /* ChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseView.h; sourceTree = "<group>"; };
+		FADE684D1D5AF8FD004022FB /* ChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseView.m; sourceTree = "<group>"; };
+		FADE684F1D5AF90A004022FB /* ChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseView.xib; sourceTree = "<group>"; };
+		FADE68511D5B0406004022FB /* TypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeView.h; sourceTree = "<group>"; };
+		FADE68521D5B0406004022FB /* TypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeView.m; sourceTree = "<group>"; };
+		FADE68541D5B0A6A004022FB /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		FADE68551D5B0A6A004022FB /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		FADE685D1D5C658C004022FB /* DDSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSegmentView.h; sourceTree = "<group>"; };
+		FADE685E1D5C658C004022FB /* DDSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSegmentView.m; sourceTree = "<group>"; };
+		FADE68611D5C66C8004022FB /* UIColor+RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBColor.h"; sourceTree = "<group>"; };
+		FADE68621D5C66C8004022FB /* UIColor+RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBColor.m"; sourceTree = "<group>"; };
+		FADE68641D5C66DF004022FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FADE68651D5C6765004022FB /* Maco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maco.h; sourceTree = "<group>"; };
+		FADE686A1D5C7123004022FB /* MainGoodsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainGoodsView.xib; sourceTree = "<group>"; };
+		FADE686C1D5C715F004022FB /* MainGoodsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGoodsView.h; sourceTree = "<group>"; };
+		FADE686D1D5C715F004022FB /* MainGoodsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGoodsView.m; sourceTree = "<group>"; };
+		FADE686F1D5C77D5004022FB /* GoodsDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsDetailView.h; sourceTree = "<group>"; };
+		FADE68701D5C77D5004022FB /* GoodsDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailView.m; sourceTree = "<group>"; };
+		FADE68721D5C77E6004022FB /* GoodsDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsDetailView.xib; sourceTree = "<group>"; };
+		FADE68741D5C7A8F004022FB /* GoodsCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCommentView.h; sourceTree = "<group>"; };
+		FADE68751D5C7A8F004022FB /* GoodsCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCommentView.m; sourceTree = "<group>"; };
+		FADE68771D5C7A9D004022FB /* GoodsCommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsCommentView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADE68121D5ADCB2004022FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE682B1D5ADCB2004022FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE68361D5ADCB3004022FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADE680C1D5ADCB2004022FB = {
+			isa = PBXGroup;
+			children = (
+				FADE68171D5ADCB2004022FB /* TaobaoAddShoppingCart */,
+				FADE68311D5ADCB2004022FB /* TaobaoAddShoppingCartTests */,
+				FADE683C1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests */,
+				FADE68161D5ADCB2004022FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADE68161D5ADCB2004022FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68151D5ADCB2004022FB /* TaobaoAddShoppingCart.app */,
+				FADE682E1D5ADCB2004022FB /* TaobaoAddShoppingCartTests.xctest */,
+				FADE68391D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADE68171D5ADCB2004022FB /* TaobaoAddShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68661D5C70B9004022FB /* GoodsView */,
+				FADE68601D5C66C8004022FB /* Category */,
+				FADE685C1D5C658C004022FB /* SegmentView */,
+				FADE684B1D5AF8EA004022FB /* ChooseView */,
+				FADE681B1D5ADCB2004022FB /* AppDelegate.h */,
+				FADE681C1D5ADCB2004022FB /* AppDelegate.m */,
+				FADE681E1D5ADCB2004022FB /* ViewController.h */,
+				FADE681F1D5ADCB2004022FB /* ViewController.m */,
+				FADE68211D5ADCB2004022FB /* Main.storyboard */,
+				FADE68241D5ADCB2004022FB /* Assets.xcassets */,
+				FADE68261D5ADCB2004022FB /* LaunchScreen.storyboard */,
+				FADE68291D5ADCB2004022FB /* Info.plist */,
+				FADE68181D5ADCB2004022FB /* Supporting Files */,
+				FADE68641D5C66DF004022FB /* PrefixHeader.pch */,
+				FADE68651D5C6765004022FB /* Maco.h */,
+			);
+			path = TaobaoAddShoppingCart;
+			sourceTree = "<group>";
+		};
+		FADE68181D5ADCB2004022FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68191D5ADCB2004022FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADE68311D5ADCB2004022FB /* TaobaoAddShoppingCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68321D5ADCB3004022FB /* TaobaoAddShoppingCartTests.m */,
+				FADE68341D5ADCB3004022FB /* Info.plist */,
+			);
+			path = TaobaoAddShoppingCartTests;
+			sourceTree = "<group>";
+		};
+		FADE683C1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE683D1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.m */,
+				FADE683F1D5ADCB3004022FB /* Info.plist */,
+			);
+			path = TaobaoAddShoppingCartUITests;
+			sourceTree = "<group>";
+		};
+		FADE684B1D5AF8EA004022FB /* ChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68541D5B0A6A004022FB /* UIView+Size.h */,
+				FADE68551D5B0A6A004022FB /* UIView+Size.m */,
+				FADE684C1D5AF8FD004022FB /* ChooseView.h */,
+				FADE684D1D5AF8FD004022FB /* ChooseView.m */,
+				FADE684F1D5AF90A004022FB /* ChooseView.xib */,
+				FADE68511D5B0406004022FB /* TypeView.h */,
+				FADE68521D5B0406004022FB /* TypeView.m */,
+			);
+			path = ChooseView;
+			sourceTree = "<group>";
+		};
+		FADE685C1D5C658C004022FB /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				FADE685D1D5C658C004022FB /* DDSegmentView.h */,
+				FADE685E1D5C658C004022FB /* DDSegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+		FADE68601D5C66C8004022FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FADE68611D5C66C8004022FB /* UIColor+RGBColor.h */,
+				FADE68621D5C66C8004022FB /* UIColor+RGBColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FADE68661D5C70B9004022FB /* GoodsView */ = {
+			isa = PBXGroup;
+			children = (
+				FADE686C1D5C715F004022FB /* MainGoodsView.h */,
+				FADE686D1D5C715F004022FB /* MainGoodsView.m */,
+				FADE686A1D5C7123004022FB /* MainGoodsView.xib */,
+				FADE686F1D5C77D5004022FB /* GoodsDetailView.h */,
+				FADE68701D5C77D5004022FB /* GoodsDetailView.m */,
+				FADE68721D5C77E6004022FB /* GoodsDetailView.xib */,
+				FADE68741D5C7A8F004022FB /* GoodsCommentView.h */,
+				FADE68751D5C7A8F004022FB /* GoodsCommentView.m */,
+				FADE68771D5C7A9D004022FB /* GoodsCommentView.xib */,
+			);
+			path = GoodsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADE68141D5ADCB2004022FB /* TaobaoAddShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE68421D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCart" */;
+			buildPhases = (
+				FADE68111D5ADCB2004022FB /* Sources */,
+				FADE68121D5ADCB2004022FB /* Frameworks */,
+				FADE68131D5ADCB2004022FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaobaoAddShoppingCart;
+			productName = TaobaoAddShoppingCart;
+			productReference = FADE68151D5ADCB2004022FB /* TaobaoAddShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADE682D1D5ADCB2004022FB /* TaobaoAddShoppingCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE68451D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCartTests" */;
+			buildPhases = (
+				FADE682A1D5ADCB2004022FB /* Sources */,
+				FADE682B1D5ADCB2004022FB /* Frameworks */,
+				FADE682C1D5ADCB2004022FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE68301D5ADCB2004022FB /* PBXTargetDependency */,
+			);
+			name = TaobaoAddShoppingCartTests;
+			productName = TaobaoAddShoppingCartTests;
+			productReference = FADE682E1D5ADCB2004022FB /* TaobaoAddShoppingCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADE68381D5ADCB3004022FB /* TaobaoAddShoppingCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE68481D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCartUITests" */;
+			buildPhases = (
+				FADE68351D5ADCB3004022FB /* Sources */,
+				FADE68361D5ADCB3004022FB /* Frameworks */,
+				FADE68371D5ADCB3004022FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE683B1D5ADCB3004022FB /* PBXTargetDependency */,
+			);
+			name = TaobaoAddShoppingCartUITests;
+			productName = TaobaoAddShoppingCartUITests;
+			productReference = FADE68391D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADE680D1D5ADCB2004022FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FADE68141D5ADCB2004022FB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FADE682D1D5ADCB2004022FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FADE68141D5ADCB2004022FB;
+					};
+					FADE68381D5ADCB3004022FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FADE68141D5ADCB2004022FB;
+					};
+				};
+			};
+			buildConfigurationList = FADE68101D5ADCB2004022FB /* Build configuration list for PBXProject "TaobaoAddShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADE680C1D5ADCB2004022FB;
+			productRefGroup = FADE68161D5ADCB2004022FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADE68141D5ADCB2004022FB /* TaobaoAddShoppingCart */,
+				FADE682D1D5ADCB2004022FB /* TaobaoAddShoppingCartTests */,
+				FADE68381D5ADCB3004022FB /* TaobaoAddShoppingCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADE68131D5ADCB2004022FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE68781D5C7A9D004022FB /* GoodsCommentView.xib in Resources */,
+				FADE686B1D5C7123004022FB /* MainGoodsView.xib in Resources */,
+				FADE68281D5ADCB2004022FB /* LaunchScreen.storyboard in Resources */,
+				FADE68731D5C77E6004022FB /* GoodsDetailView.xib in Resources */,
+				FADE68251D5ADCB2004022FB /* Assets.xcassets in Resources */,
+				FADE68231D5ADCB2004022FB /* Main.storyboard in Resources */,
+				FADE68501D5AF90A004022FB /* ChooseView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE682C1D5ADCB2004022FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE68371D5ADCB3004022FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADE68111D5ADCB2004022FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE68531D5B0406004022FB /* TypeView.m in Sources */,
+				FADE685F1D5C658C004022FB /* DDSegmentView.m in Sources */,
+				FADE68201D5ADCB2004022FB /* ViewController.m in Sources */,
+				FADE681D1D5ADCB2004022FB /* AppDelegate.m in Sources */,
+				FADE68561D5B0A6A004022FB /* UIView+Size.m in Sources */,
+				FADE681A1D5ADCB2004022FB /* main.m in Sources */,
+				FADE68711D5C77D5004022FB /* GoodsDetailView.m in Sources */,
+				FADE686E1D5C715F004022FB /* MainGoodsView.m in Sources */,
+				FADE684E1D5AF8FD004022FB /* ChooseView.m in Sources */,
+				FADE68761D5C7A8F004022FB /* GoodsCommentView.m in Sources */,
+				FADE68631D5C66C8004022FB /* UIColor+RGBColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE682A1D5ADCB2004022FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE68331D5ADCB3004022FB /* TaobaoAddShoppingCartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE68351D5ADCB3004022FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE683E1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADE68301D5ADCB2004022FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE68141D5ADCB2004022FB /* TaobaoAddShoppingCart */;
+			targetProxy = FADE682F1D5ADCB2004022FB /* PBXContainerItemProxy */;
+		};
+		FADE683B1D5ADCB3004022FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE68141D5ADCB2004022FB /* TaobaoAddShoppingCart */;
+			targetProxy = FADE683A1D5ADCB3004022FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADE68211D5ADCB2004022FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE68221D5ADCB2004022FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADE68261D5ADCB2004022FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE68271D5ADCB2004022FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADE68401D5ADCB3004022FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FADE68411D5ADCB3004022FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADE68431D5ADCB3004022FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TaobaoAddShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FADE68441D5ADCB3004022FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TaobaoAddShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FADE68461D5ADCB3004022FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaobaoAddShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaobaoAddShoppingCart.app/TaobaoAddShoppingCart";
+			};
+			name = Debug;
+		};
+		FADE68471D5ADCB3004022FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaobaoAddShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaobaoAddShoppingCart.app/TaobaoAddShoppingCart";
+			};
+			name = Release;
+		};
+		FADE68491D5ADCB3004022FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaobaoAddShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaobaoAddShoppingCart;
+			};
+			name = Debug;
+		};
+		FADE684A1D5ADCB3004022FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaobaoAddShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaobaoAddShoppingCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADE68101D5ADCB2004022FB /* Build configuration list for PBXProject "TaobaoAddShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE68401D5ADCB3004022FB /* Debug */,
+				FADE68411D5ADCB3004022FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE68421D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE68431D5ADCB3004022FB /* Debug */,
+				FADE68441D5ADCB3004022FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE68451D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE68461D5ADCB3004022FB /* Debug */,
+				FADE68471D5ADCB3004022FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE68481D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE68491D5ADCB3004022FB /* Debug */,
+				FADE684A1D5ADCB3004022FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADE680D1D5ADCB2004022FB /* Project object */;
+}
