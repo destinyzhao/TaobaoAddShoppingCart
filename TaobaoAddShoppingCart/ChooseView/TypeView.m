@@ -80,15 +80,17 @@
         // btn width
         CGFloat btnWidth = typeSize.width + 30;
         // btn height
-        CGFloat btnHeight = 25;
+        static CGFloat btnHeight = 25;
         // btn max width
         CGFloat maxBtnWith = self.frame.size.width - 40;
         // space height
-        CGFloat spaceHeight = 30;
+        static CGFloat spaceHeight = 30;
         // space width
-        CGFloat spaceWidth = 35;
+        static CGFloat spaceWidth = 35;
+        // space
+        static CGFloat space = 20;
         
-        if ( originX > (width - 2*originX - typeSize.width - spaceWidth)) {
+        if ( originX > (width - space - typeSize.width - spaceWidth)) {
             isLineWrap = YES;
             originX = 10;
             originY += spaceHeight;

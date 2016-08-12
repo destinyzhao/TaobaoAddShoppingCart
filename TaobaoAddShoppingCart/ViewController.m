@@ -57,6 +57,10 @@
     MainGoodsView *mainView = [MainGoodsView sharedView];
     mainView.frame = CGRectMake(0, 0, self.mainScrollView.width, self.mainScrollView.height);
     [self.mainScrollView addSubview:mainView];
+    mainView.scollBottomBlock = ^{
+        NSLog(@"dddd");
+        [_segmentView setCurrentSelectedIndex:1];
+    };
     
     GoodsDetailView *detailView = [GoodsDetailView sharedView];
     detailView.frame = CGRectMake(SCREEN_WIDTH, 0, self.mainScrollView.width, self.mainScrollView.height);

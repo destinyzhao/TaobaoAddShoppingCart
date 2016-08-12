@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FABDCBF11D5D759C00F21DB4 /* ServiceTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABDCBF01D5D759C00F21DB4 /* ServiceTagView.m */; };
 		FADE681A1D5ADCB2004022FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68191D5ADCB2004022FB /* main.m */; };
 		FADE681D1D5ADCB2004022FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE681C1D5ADCB2004022FB /* AppDelegate.m */; };
 		FADE68201D5ADCB2004022FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE681F1D5ADCB2004022FB /* ViewController.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FABDCBEF1D5D759C00F21DB4 /* ServiceTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTagView.h; sourceTree = "<group>"; };
+		FABDCBF01D5D759C00F21DB4 /* ServiceTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTagView.m; sourceTree = "<group>"; };
 		FADE68151D5ADCB2004022FB /* TaobaoAddShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaobaoAddShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADE68191D5ADCB2004022FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FADE681B1D5ADCB2004022FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				FADE684F1D5AF90A004022FB /* ChooseView.xib */,
 				FADE68511D5B0406004022FB /* TypeView.h */,
 				FADE68521D5B0406004022FB /* TypeView.m */,
+				FABDCBEF1D5D759C00F21DB4 /* ServiceTagView.h */,
+				FABDCBF01D5D759C00F21DB4 /* ServiceTagView.m */,
 			);
 			path = ChooseView;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				FADE684E1D5AF8FD004022FB /* ChooseView.m in Sources */,
 				FADE68761D5C7A8F004022FB /* GoodsCommentView.m in Sources */,
 				FADE68631D5C66C8004022FB /* UIColor+RGBColor.m in Sources */,
+				FABDCBF11D5D759C00F21DB4 /* ServiceTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

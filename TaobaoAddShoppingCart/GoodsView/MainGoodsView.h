@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ScollBottomBlock)(void);
+
 @interface MainGoodsView : UIView
+
+@property (copy, nonatomic) ScollBottomBlock scollBottomBlock;
 
 + (instancetype)sharedView;
 
