@@ -10,8 +10,22 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GoodsDetailView">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.34803705579999999" green="1" blue="0.35345204740000002" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SyV-bg-dlD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="SyV-bg-dlD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BjG-mh-HM6"/>
+                <constraint firstAttribute="trailing" secondItem="SyV-bg-dlD" secondAttribute="trailing" id="UQc-hR-rFd"/>
+                <constraint firstAttribute="bottom" secondItem="SyV-bg-dlD" secondAttribute="bottom" id="dJJ-gJ-VdR"/>
+                <constraint firstItem="SyV-bg-dlD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ibq-y3-FoR"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="webView" destination="SyV-bg-dlD" id="FXY-Zb-VaI"/>
+            </connections>
         </view>
     </objects>
 </document>

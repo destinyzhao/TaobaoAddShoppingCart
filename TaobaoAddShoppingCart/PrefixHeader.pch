@@ -15,5 +15,11 @@
 #import "UIColor+RGBColor.h"
 #import "Maco.h"
 #import "UIView+Size.h"
+#import "AdPlayView.h"
+#import "ServiceTagView.h"
+#import "LevelView.h"
+#import "CommentImageView.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "DDPhotoBrowser.h"
 
 #endif /* PrefixHeader_pch */

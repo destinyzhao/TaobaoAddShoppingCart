@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59B1C5BFB34EA7A15AD717FA /* Pods_TaobaoAddShoppingCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CDB329234FE7BC106AE9C2 /* Pods_TaobaoAddShoppingCart.framework */; };
+		FA25640F1D61A8BA00600759 /* CommentImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25640E1D61A8BA00600759 /* CommentImageView.m */; };
+		FA2564121D61AA5600600759 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564111D61AA5600600759 /* CommentCell.m */; };
+		FA2564141D61AA6400600759 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2564131D61AA6400600759 /* CommentCell.xib */; };
+		FA2564421D61C88E00600759 /* AdPlayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564301D61C88E00600759 /* AdPlayCell.m */; };
+		FA2564431D61C88E00600759 /* AdPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564321D61C88E00600759 /* AdPlayModel.m */; };
+		FA2564441D61C88E00600759 /* AdPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564341D61C88E00600759 /* AdPlayView.m */; };
+		FA2564451D61C88E00600759 /* DDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564371D61C88E00600759 /* DDImageCache.m */; };
+		FA2564461D61C88E00600759 /* DDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564391D61C88E00600759 /* DDPhotoBrowser.m */; };
+		FA2564471D61C88E00600759 /* DDPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25643B1D61C88E00600759 /* DDPhotoBrowserCell.m */; };
+		FA2564481D61C88E00600759 /* LevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25643E1D61C88E00600759 /* LevelView.m */; };
+		FA2564491D61C88E00600759 /* DDSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2564411D61C88E00600759 /* DDSegmentView.m */; };
 		FABDCBF11D5D759C00F21DB4 /* ServiceTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABDCBF01D5D759C00F21DB4 /* ServiceTagView.m */; };
 		FADE681A1D5ADCB2004022FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68191D5ADCB2004022FB /* main.m */; };
 		FADE681D1D5ADCB2004022FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE681C1D5ADCB2004022FB /* AppDelegate.m */; };
@@ -20,7 +32,6 @@
 		FADE68501D5AF90A004022FB /* ChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE684F1D5AF90A004022FB /* ChooseView.xib */; };
 		FADE68531D5B0406004022FB /* TypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68521D5B0406004022FB /* TypeView.m */; };
 		FADE68561D5B0A6A004022FB /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68551D5B0A6A004022FB /* UIView+Size.m */; };
-		FADE685F1D5C658C004022FB /* DDSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE685E1D5C658C004022FB /* DDSegmentView.m */; };
 		FADE68631D5C66C8004022FB /* UIColor+RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE68621D5C66C8004022FB /* UIColor+RGBColor.m */; };
 		FADE686B1D5C7123004022FB /* MainGoodsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE686A1D5C7123004022FB /* MainGoodsView.xib */; };
 		FADE686E1D5C715F004022FB /* MainGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE686D1D5C715F004022FB /* MainGoodsView.m */; };
@@ -48,6 +59,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06CDB329234FE7BC106AE9C2 /* Pods_TaobaoAddShoppingCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaobaoAddShoppingCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162EA047909465091307C9E9 /* Pods-TaobaoAddShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaobaoAddShoppingCart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaobaoAddShoppingCart/Pods-TaobaoAddShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
+		770584817FEC0298A94DFC80 /* Pods-TaobaoAddShoppingCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaobaoAddShoppingCart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaobaoAddShoppingCart/Pods-TaobaoAddShoppingCart.debug.xcconfig"; sourceTree = "<group>"; };
+		FA25640D1D61A8BA00600759 /* CommentImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentImageView.h; sourceTree = "<group>"; };
+		FA25640E1D61A8BA00600759 /* CommentImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentImageView.m; sourceTree = "<group>"; };
+		FA2564101D61AA5600600759 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		FA2564111D61AA5600600759 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		FA2564131D61AA6400600759 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		FA25642F1D61C88E00600759 /* AdPlayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPlayCell.h; sourceTree = "<group>"; };
+		FA2564301D61C88E00600759 /* AdPlayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPlayCell.m; sourceTree = "<group>"; };
+		FA2564311D61C88E00600759 /* AdPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPlayModel.h; sourceTree = "<group>"; };
+		FA2564321D61C88E00600759 /* AdPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPlayModel.m; sourceTree = "<group>"; };
+		FA2564331D61C88E00600759 /* AdPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPlayView.h; sourceTree = "<group>"; };
+		FA2564341D61C88E00600759 /* AdPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPlayView.m; sourceTree = "<group>"; };
+		FA2564361D61C88E00600759 /* DDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageCache.h; sourceTree = "<group>"; };
+		FA2564371D61C88E00600759 /* DDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDImageCache.m; sourceTree = "<group>"; };
+		FA2564381D61C88E00600759 /* DDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPhotoBrowser.h; sourceTree = "<group>"; };
+		FA2564391D61C88E00600759 /* DDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPhotoBrowser.m; sourceTree = "<group>"; };
+		FA25643A1D61C88E00600759 /* DDPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPhotoBrowserCell.h; sourceTree = "<group>"; };
+		FA25643B1D61C88E00600759 /* DDPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPhotoBrowserCell.m; sourceTree = "<group>"; };
+		FA25643D1D61C88E00600759 /* LevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelView.h; sourceTree = "<group>"; };
+		FA25643E1D61C88E00600759 /* LevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelView.m; sourceTree = "<group>"; };
+		FA2564401D61C88E00600759 /* DDSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSegmentView.h; sourceTree = "<group>"; };
+		FA2564411D61C88E00600759 /* DDSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSegmentView.m; sourceTree = "<group>"; };
 		FABDCBEF1D5D759C00F21DB4 /* ServiceTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTagView.h; sourceTree = "<group>"; };
 		FABDCBF01D5D759C00F21DB4 /* ServiceTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTagView.m; sourceTree = "<group>"; };
 		FADE68151D5ADCB2004022FB /* TaobaoAddShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaobaoAddShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +108,6 @@
 		FADE68521D5B0406004022FB /* TypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeView.m; sourceTree = "<group>"; };
 		FADE68541D5B0A6A004022FB /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		FADE68551D5B0A6A004022FB /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
-		FADE685D1D5C658C004022FB /* DDSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSegmentView.h; sourceTree = "<group>"; };
-		FADE685E1D5C658C004022FB /* DDSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSegmentView.m; sourceTree = "<group>"; };
 		FADE68611D5C66C8004022FB /* UIColor+RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBColor.h"; sourceTree = "<group>"; };
 		FADE68621D5C66C8004022FB /* UIColor+RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBColor.m"; sourceTree = "<group>"; };
 		FADE68641D5C66DF004022FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -95,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B1C5BFB34EA7A15AD717FA /* Pods_TaobaoAddShoppingCart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +149,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AE02823D8CECC5F3D8AF701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDB329234FE7BC106AE9C2 /* Pods_TaobaoAddShoppingCart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CFA8F3F310A0975AEFF5FBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770584817FEC0298A94DFC80 /* Pods-TaobaoAddShoppingCart.debug.xcconfig */,
+				162EA047909465091307C9E9 /* Pods-TaobaoAddShoppingCart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA25642D1D61C88E00600759 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FA25642E1D61C88E00600759 /* AdPlayView */,
+				FA2564351D61C88E00600759 /* DDPhotoBrowser */,
+				FA25643C1D61C88E00600759 /* LevelView */,
+				FA25643F1D61C88E00600759 /* SegmentView */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FA25642E1D61C88E00600759 /* AdPlayView */ = {
+			isa = PBXGroup;
+			children = (
+				FA25642F1D61C88E00600759 /* AdPlayCell.h */,
+				FA2564301D61C88E00600759 /* AdPlayCell.m */,
+				FA2564311D61C88E00600759 /* AdPlayModel.h */,
+				FA2564321D61C88E00600759 /* AdPlayModel.m */,
+				FA2564331D61C88E00600759 /* AdPlayView.h */,
+				FA2564341D61C88E00600759 /* AdPlayView.m */,
+			);
+			path = AdPlayView;
+			sourceTree = "<group>";
+		};
+		FA2564351D61C88E00600759 /* DDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FA2564361D61C88E00600759 /* DDImageCache.h */,
+				FA2564371D61C88E00600759 /* DDImageCache.m */,
+				FA2564381D61C88E00600759 /* DDPhotoBrowser.h */,
+				FA2564391D61C88E00600759 /* DDPhotoBrowser.m */,
+				FA25643A1D61C88E00600759 /* DDPhotoBrowserCell.h */,
+				FA25643B1D61C88E00600759 /* DDPhotoBrowserCell.m */,
+			);
+			path = DDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		FA25643C1D61C88E00600759 /* LevelView */ = {
+			isa = PBXGroup;
+			children = (
+				FA25643D1D61C88E00600759 /* LevelView.h */,
+				FA25643E1D61C88E00600759 /* LevelView.m */,
+			);
+			path = LevelView;
+			sourceTree = "<group>";
+		};
+		FA25643F1D61C88E00600759 /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				FA2564401D61C88E00600759 /* DDSegmentView.h */,
+				FA2564411D61C88E00600759 /* DDSegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
 		FADE680C1D5ADCB2004022FB = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +228,8 @@
 				FADE68311D5ADCB2004022FB /* TaobaoAddShoppingCartTests */,
 				FADE683C1D5ADCB3004022FB /* TaobaoAddShoppingCartUITests */,
 				FADE68161D5ADCB2004022FB /* Products */,
+				2CFA8F3F310A0975AEFF5FBD /* Pods */,
+				1AE02823D8CECC5F3D8AF701 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +246,9 @@
 		FADE68171D5ADCB2004022FB /* TaobaoAddShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				FA25642D1D61C88E00600759 /* General */,
 				FADE68661D5C70B9004022FB /* GoodsView */,
 				FADE68601D5C66C8004022FB /* Category */,
-				FADE685C1D5C658C004022FB /* SegmentView */,
 				FADE684B1D5AF8EA004022FB /* ChooseView */,
 				FADE681B1D5ADCB2004022FB /* AppDelegate.h */,
 				FADE681C1D5ADCB2004022FB /* AppDelegate.m */,
@@ -199,15 +307,6 @@
 			path = ChooseView;
 			sourceTree = "<group>";
 		};
-		FADE685C1D5C658C004022FB /* SegmentView */ = {
-			isa = PBXGroup;
-			children = (
-				FADE685D1D5C658C004022FB /* DDSegmentView.h */,
-				FADE685E1D5C658C004022FB /* DDSegmentView.m */,
-			);
-			path = SegmentView;
-			sourceTree = "<group>";
-		};
 		FADE68601D5C66C8004022FB /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +319,8 @@
 		FADE68661D5C70B9004022FB /* GoodsView */ = {
 			isa = PBXGroup;
 			children = (
+				FA25640D1D61A8BA00600759 /* CommentImageView.h */,
+				FA25640E1D61A8BA00600759 /* CommentImageView.m */,
 				FADE686C1D5C715F004022FB /* MainGoodsView.h */,
 				FADE686D1D5C715F004022FB /* MainGoodsView.m */,
 				FADE686A1D5C7123004022FB /* MainGoodsView.xib */,
@@ -229,6 +330,9 @@
 				FADE68741D5C7A8F004022FB /* GoodsCommentView.h */,
 				FADE68751D5C7A8F004022FB /* GoodsCommentView.m */,
 				FADE68771D5C7A9D004022FB /* GoodsCommentView.xib */,
+				FA2564101D61AA5600600759 /* CommentCell.h */,
+				FA2564111D61AA5600600759 /* CommentCell.m */,
+				FA2564131D61AA6400600759 /* CommentCell.xib */,
 			);
 			path = GoodsView;
 			sourceTree = "<group>";
@@ -240,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADE68421D5ADCB3004022FB /* Build configuration list for PBXNativeTarget "TaobaoAddShoppingCart" */;
 			buildPhases = (
+				8D2B03F8B337E43D7CFD53BB /* [CP] Check Pods Manifest.lock */,
 				FADE68111D5ADCB2004022FB /* Sources */,
 				FADE68121D5ADCB2004022FB /* Frameworks */,
 				FADE68131D5ADCB2004022FB /* Resources */,
+				4F860B36D2856C7146AC0D23 /* [CP] Embed Pods Frameworks */,
+				0F8B48AB74C56CFF59532679 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +446,7 @@
 				FADE68781D5C7A9D004022FB /* GoodsCommentView.xib in Resources */,
 				FADE686B1D5C7123004022FB /* MainGoodsView.xib in Resources */,
 				FADE68281D5ADCB2004022FB /* LaunchScreen.storyboard in Resources */,
+				FA2564141D61AA6400600759 /* CommentCell.xib in Resources */,
 				FADE68731D5C77E6004022FB /* GoodsDetailView.xib in Resources */,
 				FADE68251D5ADCB2004022FB /* Assets.xcassets in Resources */,
 				FADE68231D5ADCB2004022FB /* Main.storyboard in Resources */,
@@ -362,22 +470,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F8B48AB74C56CFF59532679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaobaoAddShoppingCart/Pods-TaobaoAddShoppingCart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F860B36D2856C7146AC0D23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaobaoAddShoppingCart/Pods-TaobaoAddShoppingCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2B03F8B337E43D7CFD53BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FADE68111D5ADCB2004022FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FADE68531D5B0406004022FB /* TypeView.m in Sources */,
-				FADE685F1D5C658C004022FB /* DDSegmentView.m in Sources */,
+				FA2564491D61C88E00600759 /* DDSegmentView.m in Sources */,
+				FA2564431D61C88E00600759 /* AdPlayModel.m in Sources */,
 				FADE68201D5ADCB2004022FB /* ViewController.m in Sources */,
+				FA25640F1D61A8BA00600759 /* CommentImageView.m in Sources */,
 				FADE681D1D5ADCB2004022FB /* AppDelegate.m in Sources */,
+				FA2564481D61C88E00600759 /* LevelView.m in Sources */,
+				FA2564461D61C88E00600759 /* DDPhotoBrowser.m in Sources */,
 				FADE68561D5B0A6A004022FB /* UIView+Size.m in Sources */,
 				FADE681A1D5ADCB2004022FB /* main.m in Sources */,
 				FADE68711D5C77D5004022FB /* GoodsDetailView.m in Sources */,
 				FADE686E1D5C715F004022FB /* MainGoodsView.m in Sources */,
+				FA2564471D61C88E00600759 /* DDPhotoBrowserCell.m in Sources */,
 				FADE684E1D5AF8FD004022FB /* ChooseView.m in Sources */,
 				FADE68761D5C7A8F004022FB /* GoodsCommentView.m in Sources */,
+				FA2564421D61C88E00600759 /* AdPlayCell.m in Sources */,
 				FADE68631D5C66C8004022FB /* UIColor+RGBColor.m in Sources */,
+				FA2564451D61C88E00600759 /* DDImageCache.m in Sources */,
+				FA2564441D61C88E00600759 /* AdPlayView.m in Sources */,
+				FA2564121D61AA5600600759 /* CommentCell.m in Sources */,
 				FABDCBF11D5D759C00F21DB4 /* ServiceTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +682,7 @@
 		};
 		FADE68431D5ADCB3004022FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770584817FEC0298A94DFC80 /* Pods-TaobaoAddShoppingCart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
@@ -530,6 +696,7 @@
 		};
 		FADE68441D5ADCB3004022FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162EA047909465091307C9E9 /* Pods-TaobaoAddShoppingCart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";

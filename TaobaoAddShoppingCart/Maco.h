@@ -13,4 +13,7 @@
 //获取屏幕宽度
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 
+//定义UIImage对象
+#define ImageNamed(imageName) [UIImage imageNamed:imageName]
+
 #endif /* Maco_h */

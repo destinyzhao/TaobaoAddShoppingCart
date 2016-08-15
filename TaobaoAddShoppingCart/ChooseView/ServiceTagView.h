@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^SelectedTagBlock)(NSInteger tagIndex);
+
 @interface ServiceTagView : UIView
 
-- (void)setTagSource:(NSArray *)arr  font:(UIFont *)font normalColor:(UIColor *)normalColor selectedColor:(UIColor *)selectedColor backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor enabled:(BOOL)enabled;
+@property (copy, nonatomic) SelectedTagBlock selectedTagBlock;
+
+- (void)setTagSource:(NSArray *)arr  font:(UIFont *)font titleNormalColor:(UIColor *)titleNormalColor titleSelectedColor:(UIColor *)titleSelectedColor normalBackgroundColor:(UIColor *)normalBackgroundColor selectedBackgroundColor:(UIColor *)selectedBackgroundColor  borderColor:(UIColor *)borderColor enabled:(BOOL)enabled;
 
 @end

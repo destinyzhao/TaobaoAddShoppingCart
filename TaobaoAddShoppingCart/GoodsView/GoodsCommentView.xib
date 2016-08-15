@@ -10,8 +10,34 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GoodsCommentView">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eun-Bw-wqj" customClass="ServiceTagView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Jho-qy-Sg7"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IQV-BO-DtI">
+                    <rect key="frame" x="0.0" y="60" width="320" height="508"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="IQV-BO-DtI" firstAttribute="top" secondItem="eun-Bw-wqj" secondAttribute="bottom" id="57Q-Nw-BNP"/>
+                <constraint firstAttribute="trailing" secondItem="eun-Bw-wqj" secondAttribute="trailing" id="6ua-Kl-V3E"/>
+                <constraint firstAttribute="trailing" secondItem="IQV-BO-DtI" secondAttribute="trailing" id="Cvc-I8-hhT"/>
+                <constraint firstItem="eun-Bw-wqj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IcP-uV-HcO"/>
+                <constraint firstItem="eun-Bw-wqj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K71-wC-Wgy"/>
+                <constraint firstAttribute="bottom" secondItem="IQV-BO-DtI" secondAttribute="bottom" id="UYc-it-YHS"/>
+                <constraint firstItem="IQV-BO-DtI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="u2O-I8-3Ka"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="commentTagView" destination="eun-Bw-wqj" id="vuz-Uy-snY"/>
+                <outlet property="tableView" destination="IQV-BO-DtI" id="EG9-Lu-SCM"/>
+                <outlet property="tagViewHeightConstraint" destination="Jho-qy-Sg7" id="7ka-9G-B4o"/>
+            </connections>
         </view>
     </objects>
 </document>

@@ -8,6 +8,12 @@
 
 #import "GoodsDetailView.h"
 
+@interface GoodsDetailView ()<UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+@end
+
 @implementation GoodsDetailView
 
 /*
@@ -17,6 +23,12 @@
     // Drawing code
 }
 */
+
+- (void)awakeFromNib
+{
+    _webView.delegate = self;
+    [self loadWebView];
+}
 
 + (instancetype)sharedView
 {
@@ -28,5 +40,28 @@
 {
     NSLog(@"网络请求2");
 }
+
+- (void)loadWebView
+{
+    NSURL *url =[NSURL URLWithString:@"http://web.superisong.com/pageone/index/html/id/27.html"];
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    [_webView loadRequest:request];
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    //[[SVProgressHUDHelper sharedInstance] sVProgressShow:REQUEST_TIPS];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    //[SVProgressHUD dismiss];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    //[SVProgressHUD dismiss];
+}
+
 
 @end
