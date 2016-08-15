@@ -52,8 +52,6 @@
 {
     self.scrollView.delegate = self;
     
-//    self.adViewHeightConstraint.constant = SCREEN_WIDTH;
-    
     NSArray *tagArr = @[@"保证正品",@"7天无理由退货",@"质保1年",@"包邮（除港澳台新疆西藏与国外）"];
     [self.serviceTagView setTagSource:tagArr font:[UIFont systemFontOfSize:14] titleNormalColor:[UIColor blackColor] titleSelectedColor:[UIColor blackColor] normalBackgroundColor:[UIColor yellowColor] selectedBackgroundColor:[UIColor yellowColor] borderColor:nil enabled:NO];
     self.serviceTagViewHeightConstraint.constant = self.serviceTagView.height;
@@ -64,9 +62,8 @@
 
 - (void)layoutSubviews
 {
-    [super layoutSubviews];
-
-    self.contentViewHeightConstraint.constant = 580;
+    self.adViewHeightConstraint.constant = SCREEN_WIDTH;
+    self.contentViewHeightConstraint.constant = 560;
 }
 
 + (instancetype)sharedView
@@ -88,7 +85,6 @@
     _AdvertisementView.imgsArray = @[@"http://www.bz55.com/uploads/allimg/120629/1-120629104603.jpg",
                                      @"http://g.hiphotos.baidu.com/image/pic/item/b58f8c5494eef01f845ef9d3e3fe9925bc317d5a.jpg"];
 }
-
 
 - (void)request
 {
