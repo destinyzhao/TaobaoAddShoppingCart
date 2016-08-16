@@ -3,7 +3,6 @@ use_frameworks!
 target 'TaobaoAddShoppingCart' do
     pod 'Masonry'
     pod 'SDWebImage'
-    pod 'MJRefresh'
 end
 
 post_install do |installer|

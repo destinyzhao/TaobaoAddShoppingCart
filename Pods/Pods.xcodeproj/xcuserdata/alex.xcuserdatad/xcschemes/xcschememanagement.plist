@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MJRefresh.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>29DD99664D189A7CA206368F493B1E0B</key>
+		<key>52B628CFF46CB189B72D5AE08EEAA9DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58FFDD29393916CB2A2321D52FF7A882</key>
+		<key>72E51E487E22C68A92641CAE67F3D50E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A9A83F63385AA43314397B8DD375464B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FFA8266357F8E3501909A0C6287908E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

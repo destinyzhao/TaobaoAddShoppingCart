@@ -407,6 +407,7 @@
 				TargetAttributes = {
 					FADE68141D5ADCB2004022FB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZSS2LWPKC7;
 					};
 					FADE682D1D5ADCB2004022FB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -685,11 +686,13 @@
 			baseConfigurationReference = 770584817FEC0298A94DFC80 /* Pods-TaobaoAddShoppingCart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = TaobaoAddShoppingCart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichijia.sis-market";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -699,11 +702,13 @@
 			baseConfigurationReference = 162EA047909465091307C9E9 /* Pods-TaobaoAddShoppingCart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = TaobaoAddShoppingCart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Alex.TaobaoAddShoppingCart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichijia.sis-market";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

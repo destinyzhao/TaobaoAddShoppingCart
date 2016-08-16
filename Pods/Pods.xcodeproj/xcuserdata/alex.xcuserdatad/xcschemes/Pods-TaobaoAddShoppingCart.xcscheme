@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FFA8266357F8E3501909A0C6287908E7"
+               BlueprintIdentifier = "72E51E487E22C68A92641CAE67F3D50E"
                BuildableName = "Pods_TaobaoAddShoppingCart.framework"
                BlueprintName = "Pods-TaobaoAddShoppingCart"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFA8266357F8E3501909A0C6287908E7"
+            BlueprintIdentifier = "72E51E487E22C68A92641CAE67F3D50E"
             BuildableName = "Pods_TaobaoAddShoppingCart.framework"
             BlueprintName = "Pods-TaobaoAddShoppingCart"
             ReferencedContainer = "container:Pods.xcodeproj">
